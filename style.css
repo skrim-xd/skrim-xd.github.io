@@ -1,58 +1,93 @@
-/* Reset default browser styles */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol {
-  margin: 0;
-  padding: 0;
+.header{
+    position: relative;
+    padding: 15px;
+    background-color: #2a1f3d;
+    text-align: center;
+    color: #dcd6ef;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 30px;
+    border: 1px solid #65537f;
+    border-radius: 4px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-  color: #333;
+.footer {
+     position: relative;
+    padding: 15px;
+    background-color: #2a1f3d;
+    text-align: center;
+    color: #dcd6ef;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 30px;
+    border: 1px solid #65537f;
+    border-radius: 4px;
+}
+
+.box{
+    position: relative;
+    padding: 15px;
+    background-color: #2a1f3d;
+    text-align: center;
+    color: #dcd6ef;
+    font-size: 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 30px;
+    border: 1px solid #65537f;
+    border-radius: 4px;
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
+body{
+    background-color: #2d2145;
+    text-align: center;
+    color: #dcd6ef;
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.gap{
+    padding-bottom: 10px;
 }
 
-p {
-  margin-bottom: 10px;
+.colorpallet {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #65537f; 
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #161616   
 }
-
-ul,
-ol {
-  margin-left: 20px;
-  margin-bottom: 10px;
+  
+  .colorpallet1 {
+    background-color: #2a1f3d;
+    color: #dcd6ef;
 }
-
-a {
-  color: #333;
-  text-decoration: none;
+  
+  .colorpallet2 {
+    background-color: #2d2145;
+    color: #dcd6ef;
 }
-
-a:hover {
-  text-decoration: underline;
+  
+  .colorpallet3 {
+    background-color: #362a51;
+    color: #dcd6ef;
 }
-
-/* Add your own styles below this line */
-
+  
+  .colorpallet4 {
+    background-color: #483663;
+}
+  
+  .colorpallet5 {
+    background-color: #65537f;
+}
+  
+  .colorpallet6 {
+    background-color: #dcd6ef;
+}
